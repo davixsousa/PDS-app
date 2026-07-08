@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Document Editor Rich-Text Styling */
+.document-editor h1 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.document-editor h2 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  margin-top: 0.8rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.document-editor h3 {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.document-editor p {
+  margin-bottom: 0.5rem !important;
+  line-height: 1.6 !important;
+}
+
+.document-editor ul {
+  list-style-type: disc !important;
+  padding-left: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.document-editor ol {
+  list-style-type: decimal !important;
+  padding-left: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.document-editor li {
+  margin-bottom: 0.25rem !important;
+}
+
+.document-editor blockquote {
+  border-left: 3px solid #6366F1 !important;
+  padding-left: 0.75rem !important;
+  color: #8E8E8F !important;
+  font-style: italic !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Empty editable placeholder */
+.document-editor:empty::before {
+  content: attr(placeholder);
+  color: #8E8E8F;
+  opacity: 0.5;
+  display: block;
+  pointer-events: none;
+}

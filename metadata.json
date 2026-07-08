@@ -1,0 +1,6 @@
+{
+  "name": "Personal Development System (PDS) PDS App",
+  "description": "Aplicativo de desenvolvimento pessoal com dashboard, agenda, caderno de estudos, finanças, controle de hábitos, metas e timer Pomodoro.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
